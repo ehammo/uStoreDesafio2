@@ -1,0 +1,14 @@
+.botao>.btn{
+    font-weight: bolder;
+    color: white;
+    background-color: #66b4f4;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin: 20px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.4);
+}
+
+.ui {
+    padding-right: 39px;
+    width: 100%;
+}
