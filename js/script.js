@@ -1,9 +1,9 @@
 $(document).ready(function(){
     $('.btn').click(function(){
         json = generateJson();
-        document.getElementById('os').innerHTML = json["os"]
+        document.getElementById('os').innerHTML = "Sistema operacional: "+json["os"]
         document.getElementById('osVersion').innerHTML = json["osVersion"]
-        document.getElementById('browser').innerHTML = json["browser"]
+        document.getElementById('browser').innerHTML = "Browser: "+json["browser"]
         document.getElementById('browserVersion').innerHTML = json["browserVersion"]
         document.getElementById('requisitos').innerHTML = json["requirements"]
 
